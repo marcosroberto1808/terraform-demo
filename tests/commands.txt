@@ -1,0 +1,4 @@
+ab -n 5000 -c 500 http://localhost:80/
+sudo stress --cpu 4 -v --timeout 600s
+
+ssh -i /home/vagrant/keys/robertom-terraform-test.pem ec2-user@172.
